@@ -9,6 +9,6 @@ import retrofit2.http.GET;
 
 public interface ApiRequest {
 
-    @GET("top-headlines?country=in&category=business&apiKey="+API_KEY)
+    @GET("top-headlines?country=us&category=business&apiKey="+API_KEY)
     Call<ArticleResponse> getTopHeadlines();
 }

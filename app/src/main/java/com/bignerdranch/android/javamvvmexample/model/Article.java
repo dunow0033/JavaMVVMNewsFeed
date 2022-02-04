@@ -43,8 +43,8 @@ public class Article {
     public String toString() {
         return "BashboardNews {" +
         "urlToImage='" + urlToImage + '\'' +
-                ",description='" +description+'\''+
-                        ",title='" +title+'\''+
+                ",description='" + description + '\'' +
+                        ",title='" + title + '\'' +
                 '}';
     }
 }

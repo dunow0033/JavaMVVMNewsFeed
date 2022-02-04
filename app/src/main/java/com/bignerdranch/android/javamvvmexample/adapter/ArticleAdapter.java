@@ -42,7 +42,6 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         Glide.with(context)
                 .load(article.getUrlToImage())
                 .into(holder.imgViewCover);
-
     }
 
     @Override
